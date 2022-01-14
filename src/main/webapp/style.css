@@ -1,0 +1,80 @@
+body {
+    background-color: #E3DBFF;
+    font-size: 14px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 16px;
+    text-align: center;
+    margin:0;
+    padding:10px;
+}
+
+th {
+    padding: 5px 30px;
+}
+
+label {
+    text-align: right;
+    font-size: 14px;
+    padding: 0;
+}
+
+#send {
+    width: 50%;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: #FFFFFF;
+    border-color: #9C82F3;
+}
+
+#internal {
+    width: 100%;
+}
+
+#y_placeholder {
+    text-align: center;
+}
+
+#result_table_head {
+    width: 100%;
+    background-color: #9C82F3;
+}
+
+.result_table td {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    font-size: 18px;
+    font-family: sans-serif;
+    background: linear-gradient(45deg, #BC69DC, #5D2DF4);
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#main {
+    width: 100%;
+}
+
+#right_column, #left_column {
+    width: 25%;
+}
+
+#central_column {
+    width: 50%;
+}
+
+#error_message {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+canvas {
+    size: auto;
+}
